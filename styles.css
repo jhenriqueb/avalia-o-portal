@@ -1,0 +1,107 @@
+/* Reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgb(55, 55, 163);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+footer {
+    background: rgb(55, 55, 163);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+.link{
+    color: blue;
+    text-decoration: none;
+}
+
+.ge{
+    background-image: url(newge.png);
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -999999px;
+    border-radius: 30px;
+}
+
+.sofa{
+    background-image: url(newsofa.png);
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -999999px;
+    border-radius: 30px;
+}
+
+.beta{
+    background-image: url(newbeta.jpg);
+    display: block;
+    height: 32px;
+    width: 32px;
+    text-indent: -999999px;
+    border-radius: 30px;
+}
+
+td, th {
+    border: 1px solid black;
+}
